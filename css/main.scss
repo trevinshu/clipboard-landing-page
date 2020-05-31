@@ -15,3 +15,61 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 1.125rem;
 }
+
+img {
+    max-width: 100%;
+}
+
+.btn-primary {
+    background-color: $Primary-Strong-Cyan;
+    width: 75%;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 100vw;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.btn-secondary {
+    background-color: $Primary-Light-Blue;
+    width: 75%;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: $Bold;
+    border-radius: 100vw;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+header {
+    background-image: url(../img/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin: 5rem 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: $Neutral-Dark-Grey-Blue;
+        font-size: 2rem;
+        padding: 0 1em;
+    }
+
+    h1:first-letter {
+        text-transform: capitalize;
+    }
+
+    p {
+        padding: 1em 1.5em 2em;
+        text-align: center;
+        color: $Neutral-Grey-Blue;
+    }
+}
