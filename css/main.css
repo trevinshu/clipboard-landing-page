@@ -157,3 +157,107 @@ header p {
   padding: 1rem;
   color: #9fabb2;
 }
+
+.five div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.five div:first-of-type {
+  margin-top: 3rem;
+}
+
+.five h3 {
+  padding: 2rem 0;
+  color: #4c545d;
+  text-align: center;
+}
+
+.five h3:first-of-type::first-letter, .five h3:last-of-type::first-letter {
+  text-transform: capitalize;
+}
+
+.five p {
+  text-align: center;
+  color: #9fabb2;
+  padding: 0 1rem 3rem 1rem;
+}
+
+.six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.six img {
+  padding: 2rem 0;
+}
+
+.seven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seven h2 {
+  text-align: center;
+  color: #4c545d;
+  padding: 4rem 2.5rem 1rem 2.5rem;
+}
+
+.seven h2::first-letter {
+  text-transform: capitalize;
+}
+
+.seven p {
+  text-align: center;
+  padding: 0 1.8rem 2rem 1.8rem;
+  color: #9fabb2;
+}
+
+footer {
+  background-color: #f5f6f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  width: 10%;
+  margin: 2.5rem 0;
+}
+
+footer ul:first-of-type {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul:first-of-type li {
+  padding-bottom: 1rem;
+}
+
+footer ul:first-of-type a {
+  color: #9fabb2;
+}
+
+footer ul:last-of-type {
+  margin: 1rem 0 2.5rem 0;
+  display: flex;
+  list-style: none;
+}
+
+footer ul:last-of-type i {
+  color: #4c545d;
+}
+
+footer ul:last-of-type li {
+  padding: 0 1rem;
+}
