@@ -1,0 +1,78 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --semi-bold: 600;
+  --regular: 400;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.1rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header > .header-img {
+  padding: 4rem 3rem;
+}
+
+header > h1 {
+  text-align: center;
+  color: var(--dark-grayish);
+}
+
+header > .lead {
+  color: var(--grayish-blue);
+  text-align: center;
+  padding: 1.2rem;
+}
+
+header > .btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  margin-top: 1.5rem;
+}
+
+.btn-container > .btn-primary,
+.btn-secondary {
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  margin: 0.5rem 1rem;
+  box-shadow: 2px 3px 15px var(--grayish-blue);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-secondary:active {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.btn-primary {
+  background-color: var(--strong-cyan);
+}
+
+.btn-secondary {
+  background-color: var(--light-blue);
+}
