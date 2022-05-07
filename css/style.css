@@ -15,6 +15,7 @@ body {
   font-size: 1.1rem;
 }
 
+/* ---------------------------------- Header Styles ---------------------------------*/
 header {
   display: flex;
   flex-wrap: wrap;
@@ -76,3 +77,48 @@ header > .btn-container {
 .btn-secondary {
   background-color: var(--light-blue);
 }
+
+/* ---------------------------------- Section One Styles ---------------------------------*/
+
+main > .section-one {
+  margin-top: 8rem;
+}
+
+.section-one > .section-container-one {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.section-container-one > .section-one-h2 {
+  color: var(--dark-grayish);
+}
+
+.section-container-one > .section-one-lead {
+  color: var(--grayish-blue);
+  padding-top: 1rem;
+}
+
+.section-one-container-two {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.section-one-img-container > .computer-image {
+  padding: 1.5rem;
+}
+.section-one-articles-container > article {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.section-one-articles-container > article > h2 {
+  color: var(--dark-grayish);
+  margin-bottom: 0.5rem;
+}
+
+.section-one-articles-container > article > p {
+  color: var(--grayish-blue);
+}
+
+/* ---------------------------------- Section Two Styles ---------------------------------*/
