@@ -213,7 +213,54 @@ main > .section-three {
 }
 .section-five > .btn-container {
   margin-top: 2.5rem;
+  margin-bottom: 8rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* ---------------------------------- Footer Styles ---------------------------------*/
+footer {
+  background-color: hsl(220, 18%, 97%);
+}
+
+footer > .footer-container-one > img {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+footer > .footer-container-one > ul {
+  padding-left: 0;
+}
+
+footer > .footer-container-one > ul > li {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer > .footer-container-one > ul > li > a {
+  text-decoration: none;
+  color: var(--dark-grayish);
+}
+
+footer > .footer-container-one > ul > li > a:hover,
+footer > .footer-container-one > ul > li > a:active {
+  color: var(--strong-cyan);
+}
+
+footer > .footer-container-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > .footer-container-two > a {
+  margin: 1rem;
+}
+
+footer > .footer-container-two > a > i {
+  font-size: 1.7rem;
+  color: var(--dark-grayish);
 }
