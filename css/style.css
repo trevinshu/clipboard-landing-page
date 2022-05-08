@@ -124,7 +124,8 @@ main > .section-one {
 /* ---------------------------------- Section Two Styles ---------------------------------*/
 
 main > .section-two {
-  margin: 8rem 1.3rem;
+  /* top | right | bottom | left */
+  margin: 8rem 1.3rem 6rem 1.3rem;
 }
 
 .section-two > .section-two-heading {
@@ -140,3 +141,48 @@ main > .section-two {
 }
 
 /* ---------------------------------- Section Three Styles ---------------------------------*/
+main > .section-three {
+  margin: 0 1.5rem 6rem 1.5rem;
+}
+
+.section-three > .section-three-sub-container {
+  text-align: center;
+}
+
+.section-three-sub-container > .section-three-sub-container-heading {
+  color: var(--dark-grayish);
+}
+
+.section-three-sub-container > .section-three-sub-container-content {
+  color: var(--grayish-blue);
+}
+
+.section-three-articles {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.section-three-articles > .section-three-art-one > .section-three-art-img,
+.section-three-art-two > .section-three-art-img,
+.section-three-art-three > .section-three-art-img {
+  margin: auto;
+}
+
+.section-three-articles > .section-three-art-one > .section-three-art-heading-one,
+.section-three-art-two > .section-three-art-heading-two,
+.section-three-art-three > .section-three-art-heading-three {
+  color: var(--dark-grayish);
+  margin: 1rem 0;
+}
+
+.section-three-articles > .section-three-art-one > .section-three-art-content-one,
+.section-three-art-two > .section-three-art-content-two {
+  margin-bottom: 3rem;
+  color: var(--grayish-blue);
+}
+
+.section-three-articles > .section-three-art-three > .section-three-art-content-three {
+  color: var(--grayish-blue);
+}
+
+/* ---------------------------------- Section Four Styles ---------------------------------*/
