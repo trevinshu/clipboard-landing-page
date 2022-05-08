@@ -122,3 +122,21 @@ main > .section-one {
 }
 
 /* ---------------------------------- Section Two Styles ---------------------------------*/
+
+main > .section-two {
+  margin: 8rem 1.3rem;
+}
+
+.section-two > .section-two-heading {
+  text-align: center;
+  color: var(--dark-grayish);
+  margin-bottom: 1rem;
+}
+
+.section-two > .section-two-content {
+  text-align: center;
+  color: var(--grayish-blue);
+  margin-bottom: 4rem;
+}
+
+/* ---------------------------------- Section Three Styles ---------------------------------*/
