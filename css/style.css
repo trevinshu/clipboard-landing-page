@@ -186,3 +186,17 @@ main > .section-three {
 }
 
 /* ---------------------------------- Section Four Styles ---------------------------------*/
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.section-four > img {
+  padding: 1.7rem;
+}
+
+/* ---------------------------------- Section Five Styles ---------------------------------*/
