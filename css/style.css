@@ -200,3 +200,20 @@ main > .section-three {
 }
 
 /* ---------------------------------- Section Five Styles ---------------------------------*/
+.section-five > h2 {
+  text-align: center;
+  margin: 0 1.7rem;
+  color: var(--dark-grayish);
+}
+
+.section-five > p {
+  text-align: center;
+  margin: 1rem 1.7rem;
+  color: var(--grayish-blue);
+}
+.section-five > .btn-container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
