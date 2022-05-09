@@ -1,6 +1,8 @@
 # Clipboard Landing Page - Frontend Mentor Challenge
 
-## Project Preview:
+## Live Link:
+
+[View Live](https://clipboard-landing-page-trevin.netlify.app/)
 
 ## Challenge Source:
 
