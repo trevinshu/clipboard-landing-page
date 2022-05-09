@@ -264,3 +264,32 @@ footer > .footer-container-two > a > i {
   font-size: 1.7rem;
   color: var(--dark-grayish);
 }
+
+@media only screen and (min-width: 1300px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg-header-desktop.png);
+  }
+
+  header > h1 {
+    font-size: 3.3rem;
+  }
+
+  header > .lead {
+    font-size: 1.5rem;
+    padding: 1.2rem 15rem;
+  }
+
+  header > .btn-container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .btn-container > .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    white-space: nowrap;
+    padding: 1rem 4rem;
+  }
+}
