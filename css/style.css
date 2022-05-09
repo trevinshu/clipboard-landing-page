@@ -351,3 +351,35 @@ footer > .footer-container-two > a > i {
     padding: 0 15rem;
   }
 }
+
+/* ---------------------------------- Section Three Styles (Desktop) ---------------------------------*/
+main > .section-three {
+  margin: 0;
+}
+.section-three-sub-container-heading {
+  font-size: 3rem;
+}
+
+.section-three-sub-container-content {
+  font-size: 1.5rem;
+}
+
+.section-three-articles {
+  display: flex;
+  margin: 8rem;
+}
+
+.section-three-articles > article {
+  padding: 2rem;
+}
+.section-three-art-heading-one,
+.section-three-art-heading-two,
+.section-three-art-heading-three {
+  font-size: 2rem;
+}
+
+.section-three-art-content-one,
+.section-three-art-content-two,
+.section-three-art-content-three {
+  font-size: 1.2rem;
+}
