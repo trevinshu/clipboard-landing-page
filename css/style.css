@@ -264,7 +264,7 @@ footer > .footer-container-two > a > i {
   font-size: 1.7rem;
   color: var(--dark-grayish);
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1100px) {
   /* ---------------------------------- Header Styles (Desktop) ---------------------------------*/
   header {
     display: flex;
@@ -407,5 +407,35 @@ footer > .footer-container-two > a > i {
   .btn-secondary {
     width: 50%;
     white-space: nowrap;
+  }
+  /* ---------------------------------- Footer Styles (Desktop) ---------------------------------*/
+  footer {
+    display: flex;
+    padding: 3rem 10rem;
+  }
+
+  .footer-container-one {
+    display: flex;
+  }
+
+  footer > .footer-container-one > img {
+    padding-top: 0;
+    margin-top: 1.5rem;
+    padding-right: 7rem;
+    height: 50%;
+  }
+
+  .footer-container-one > ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  footer > .footer-container-one > ul > li {
+    padding: 0 4rem 1rem 0;
+  }
+
+  .footer-container-one > ul > li > a {
+    font-size: 1.3rem;
   }
 }
