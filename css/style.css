@@ -383,3 +383,13 @@ main > .section-three {
 .section-three-art-content-three {
   font-size: 1.2rem;
 }
+
+/* ---------------------------------- Section Four Styles (Desktop) ---------------------------------*/
+.section-four {
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-four > img {
+  padding: 3rem;
+}
