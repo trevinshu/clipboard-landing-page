@@ -266,6 +266,7 @@ footer > .footer-container-two > a > i {
 }
 
 @media only screen and (min-width: 1300px) {
+  /* ---------------------------------- Header Styles (Desktop) ---------------------------------*/
   header {
     display: flex;
     flex-direction: column;
@@ -291,5 +292,45 @@ footer > .footer-container-two > a > i {
     width: 100%;
     white-space: nowrap;
     padding: 1rem 4rem;
+  }
+
+  /* ---------------------------------- Section One Styles (Desktop) ---------------------------------*/
+  .section-one > .section-container-one > .section-one-h2 {
+    font-size: 3rem;
+  }
+
+  .section-one > .section-container-one > .section-one-lead {
+    font-size: 1.5rem;
+    padding: 1rem 14rem;
+  }
+
+  .section-one-container-two {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .section-one-img-container > .computer-image {
+    transform: translateX(-100px);
+    padding-right: 0;
+    width: 1300px;
+  }
+  .section-one-articles-container > article {
+    text-align: left;
+    margin-top: 1rem;
+    padding-left: 0;
+    padding-right: 12rem;
+  }
+
+  .section-one-articles-container > article > h2 {
+    font-size: 2rem;
+  }
+
+  .section-one-articles-container > article:first-of-type {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .section-one-articles-container > article:nth-of-type(2) {
+    padding-bottom: 0;
   }
 }
