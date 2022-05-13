@@ -17,6 +17,6 @@
 
 - Font Awesome.
 
-## Builit By:
+## Built By:
 
 - Trevin Shu.
